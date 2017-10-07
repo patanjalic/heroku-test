@@ -1,4 +1,4 @@
-const express = require('express');
+cnst express = require('express');
 const hbs = require('hbs');
 
 const port = process.env.PORT || 3000;
@@ -29,7 +29,7 @@ app.get('/',(req,resp) => {
 app.get('/about',(req,res) => {
   res.render('index.hbs', {
     pageTitle: 'Real world',
-    welcomeMessage: 'This website is about the real world stuff which is too heavy for you folks'
+    welcomeMessage: 'This site is about the real world stuff which is too heavy for you folks'
   });
 });
 
